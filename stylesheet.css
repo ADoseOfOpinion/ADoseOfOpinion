@@ -1,0 +1,137 @@
+
+           
+           body {
+                background-color: rgb(143, 209, 221);
+                
+            }
+            header {
+                color: rgb(138, 238, 238);
+                background-color:rgb(37, 47, 49);
+                text-align: center;
+                text-decoration: underline;
+                padding: 20px;
+                font-size: 2em;
+                font-family: "Noto Sans KR", sans-serif;
+                
+            }
+            section {
+                display: flex;
+                flex-direction: row;
+                background-color:rgb(114, 114, 131);
+                padding: 5px;
+            }
+            div {
+                background-color:rgb(130, 130, 150);
+                width: 125px;
+                margin: auto;
+                text-align: center;
+                padding: 5px;
+                font-family: "Montserrat", sans-serif;
+            }
+            div a:hover {
+                text-decoration: none;
+                background-color:rgb(160,160,160);
+            }
+            footer {
+                text-align: center;
+            }
+            #about {
+                font-size: 30px;
+                font-family: "Yanone Kaffeesatz", sans-serif;
+                padding-left: 100px;
+                padding-right: 100px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+            }
+            .status {
+                width: 800px;
+                font-size: 50px;
+                background-color: transparent;
+            }
+            .contact-title, .contact-form {
+                text-align: center;
+                width: 500px;
+                text-transform: uppercase;
+                padding-top: 0px;
+                background-color: rgb(70, 167, 184);
+            }
+            .contact-form {
+                background-color: rgb(80, 180, 190);
+                
+                
+                transition: all 4s ease-in-out;
+                border-bottom: 1px solid gray;
+                
+            }
+            .form-control {
+                width: 400px;
+                background: transparent;
+                outline: none;
+                border-bottom: 1px solid gray;
+                font-size: 18px;
+                margin-bottom: 16px;
+                color: #ffffff;
+
+            }
+            .blogposts-opinion {
+                background-color: rgb(70, 180, 189);
+                width: 500px;
+                border: 5px solid lightblue;
+                padding: 30px;
+            }
+            .blogposts-commentary {
+                background-color: rgb(204, 237, 80);
+                width: 500px;
+                border: 5px solid lightblue;
+                padding: 30px;
+            }
+            img {
+                text-decoration: underline;
+                border: 10px ridge rgb(17, 124, 185);
+                width: 300px;
+                padding-left: 50px;
+                padding-right: 50px;
+                text-align: center;
+            }
+            .readmore {
+                color: blue;
+                text-decoration: underline;
+            }
+            .blogformat {
+                text-indent: 40px;
+                font-family: "Source Sans Pro", sans-serif;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            h1, h2, h3, h5 {
+                text-align: center;
+                text-decoration: underline;
+                font-family: "Yanone Kaffeesatz", sans-serif;
+            }
+            .homepage-opinion, .homepage-commentary {
+                background-color: rgb(70, 180, 189);
+                width: 420px;
+                border-right: 5px dashed orange;
+            }
+            .homepage-commentary {
+                background-color: rgb(204, 237, 80);
+                width: 420px;
+                border-right: 5px dashed orange;
+            }
+            .homepage-opinion {
+                border-left: 5px dashed orange;
+            }
+
+            .homepage-div {
+                width: 840px;
+                background-color: lightblue;
+                padding: 20px;
+                padding-right: 50px;
+            }
+            figure {
+                text-align: center;
+            }
+           
+            
+            
+
