@@ -117,7 +117,9 @@
             }
             .homepage-opinion, .homepage-commentary {
                 background-color: rgb(70, 180, 189);
-                width: 420px;
+                position: relative;
+                right: 45%
+                left: 55%;
                 border-right: 5px dashed orange;
             }
             .homepage-commentary {
@@ -172,6 +174,36 @@
                list-style-position: inside;
                padding-bottom: 20px;
            }
+           .readmorechunk1, .bloglist {
+                all: initial;
+                * {
+                    all:unset;
+                }
+            }
+           .viewmoreblogs {
+                background-color:rgb(98, 98, 184);
+                width: 150px;
+                height: 50px;
+                margin: auto;
+                text-align: center;
+                padding: 5px;
+                font-family: "Montserrat", sans-serif;
+                position: relative;
+                left: 45%;
+                top: 10px;
+                cursor: pointer;
+           }
+           .readmorechunk1 {
+                display: none;
+            }
+            .bloglist.show-more .readmorechunk1 {
+                display: inline;
+            }
+            .viewmoreblogs.show-less {
+                display: none;
+            }
+           
+
             
             
 
