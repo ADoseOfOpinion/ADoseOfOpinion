@@ -177,7 +177,7 @@
            .readmorechunk1, .bloglist {
                 all: initial;
                 * {
-                    all:unset;
+                    all: unset;
                 }
             }
            .viewmoreblogs {
