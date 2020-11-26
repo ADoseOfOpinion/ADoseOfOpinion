@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>A Dose of Opinion: Contact</title>
+        <title>Contact the Author | A Dose Of Opinion</title>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Noto+Sans+KR:wght@700&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
         <link rel="stylesheet" href = "stylesheet.css">
     </head>
@@ -15,23 +15,24 @@
             <div><a href = "contact.html">Contact</a></div>
         </section>
          
-<!--Contact form will only work when uploaded to a server.-->
+
         <div class = "contact-title">
                 <h1>Contact</h1>
-                <h2>Please feel free to reach out with any questions, inquiries, suggestions, etc.</h2>
+                <h2>Please feel free to reach out with any questions, inquiries, suggestions, etc. Formspree is used to receive contact forms!</h2>
             </div>
-             <div class="contact-form">
-                <form id = "contact-form" method = "post" action = "contactform.php">
-                    <input name = "name" type = "text" class = "form-control" placeholder = "Your Name" required><br>
+            <div class = "contact-form">
+                <form action="https://formspree.io/xqkyjpgk" method="POST">
+                    <input name = "name" type ="text" class = "form-control" placeholder = "Your Name" required><br>
                     <input name = "email" type = "email" class = "form-control" placeholder = "E-mail Address" required><br>
-                    <textarea name = "message" class = "form-control" placeholder = "message" rows = "6" required></textarea><br>
-                    <input type = "submit" class = "form-control submit" value = "Send Message">
+                    <textarea name = "message" class = "form-control" placeholder = "message" rows = "5" required></textarea><br>
+                    <input type= "submit" class = "form-contrl submit" value = "Send Message">
                 </form>
             </div>
+            
          
         
             
 
-        <footer><h2>©2020 A Dose of Opinion</h2></footer>
+        <footer><h2>©2020 A Dose of Opinion | <a target = "_blank" href = "sitemap2.xml">Sitemap</a></h2></footer>
     </body>
 </html>
