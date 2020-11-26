@@ -6,7 +6,7 @@
             }
             header {
                 color: rgb(138, 238, 238);
-                background-color:rgb(37, 47, 49);
+                background-color:rgb(53, 153, 86);
                 text-align: center;
                 text-decoration: underline;
                 padding: 20px;
@@ -78,12 +78,17 @@
                 width: 500px;
                 border: 5px solid lightblue;
                 padding: 30px;
+                margin-top: 20px;
             }
             .blogposts-commentary {
                 background-color: rgb(204, 237, 80);
                 width: 500px;
                 border: 5px solid lightblue;
                 padding: 30px;
+                margin-top: 20px;
+            }
+            #opiniondebate {
+                margin-bottom: 20px;
             }
             img {
                 text-decoration: underline;
@@ -102,6 +107,8 @@
                 font-family: "Source Sans Pro", sans-serif;
                 padding-left: 20px;
                 padding-right: 20px;
+                padding-bottom: 20px;
+                font-size: 20px;
             }
             h1, h2, h3, h5 {
                 text-align: center;
@@ -110,7 +117,9 @@
             }
             .homepage-opinion, .homepage-commentary {
                 background-color: rgb(70, 180, 189);
-                width: 420px;
+                position: relative;
+                right: 45%
+                left: 55%;
                 border-right: 5px dashed orange;
             }
             .homepage-commentary {
@@ -131,7 +140,70 @@
             figure {
                 text-align: center;
             }
+           .searchbar {
+               position: relative;
+               left: 1000px;
+                margin: auto;
+               max-width: 300px;
+               margin-top: 10px;
+               text-align: right;
+           }
+           input[type=text] {
+               padding: 5px;
+               font-size: 12px;
+               border: 1px solid #0079a3;
+               border-radius: 3px;
+               font-style: italic
+           }
+           input[type=submit] {
+               padding: 12px;
+               width: 8%
+               font-size: 17px;
+               cursor: pointer;
+               border-radius: 3pxl;
+           }
+           .blogpagebox {
+               width: 1000px;
+               height: 2500px;
+               background: rgb(150, 250, 250);
+               margin-top: 25px;
+               padding-top: 10px;
+           }
+           .blogformat li {
+               padding-left: 60px;
+               list-style-position: inside;
+               padding-bottom: 20px;
+           }
+           .readmorechunk1, .bloglist {
+                all: initial;
+                * {
+                    all: unset;
+                }
+            }
+           .viewmoreblogs {
+                background-color:rgb(98, 98, 184);
+                width: 150px;
+                height: 50px;
+                margin: auto;
+                text-align: center;
+                padding: 5px;
+                font-family: "Montserrat", sans-serif;
+                position: relative;
+                left: 45%;
+                top: 10px;
+                cursor: pointer;
+           }
+           .readmorechunk1 {
+                display: none;
+            }
+            .bloglist.show-more .readmorechunk1 {
+                display: inline;
+            }
+            .viewmoreblogs.show-less {
+                display: none;
+            }
            
+
             
             
 
