@@ -180,7 +180,7 @@
                     all: unset;
                 }
             }
-           .viewmoreblogs {
+           .viewmoreblogs, .viewmoreblogs2 {
                 background-color:rgb(98, 98, 184);
                 width: 150px;
                 height: 50px;
@@ -193,13 +193,13 @@
                 top: 10px;
                 cursor: pointer;
            }
-           .readmorechunk1 {
+           .readmorechunk1, .readmorechunk2 {
                 display: none;
             }
-            .bloglist.show-more .readmorechunk1 {
+            .bloglist.show-more .readmorechunk1, .bloglist.show-more .readmorechunk2 {
                 display: inline;
             }
-            .viewmoreblogs.show-less {
+            .viewmoreblogs.show-less, .viewmoreblogs.show-less {
                 display: none;
             }
             
