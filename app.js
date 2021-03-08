@@ -27,24 +27,10 @@ searchBar.addEventListener('keyup', function(e){
 const ViewMoreButton = document.querySelector('.viewmoreblogs');
 //one big div for all blogs
 const BlogList = document.querySelector('.bloglist');
-//second earliest blogs
+//second earliest blogs (6-10)
 const BlogChunk2 = document.querySelector('.readmorechunk2');
-//earliest blogs
+//earliest blogs (1-5)
 const BlogChunk = document.querySelector('.readmorechunk1');
-
-
-/*ViewMoreButton.addEventListener('click', (e) => {
-    BlogList.classList.toggle('show-more');
-    ViewMoreButton.classList.toggle('show-less')
-    if (ViewMoreButton.innerText === "View More Blogs") {
-        ViewMoreButton.style.display = block;
-        BlogChunk2.style.display = none;
-    } else {
-        ViewMoreButton.style.display = none;
-        BlogChunk2.style.display = block;
-    }
-}); */
-
 
 ViewMoreButton.addEventListener('click', (e) => {
     BlogList.classList.toggle('show-more');
@@ -64,6 +50,16 @@ ViewMoreButton.addEventListener('click', (e) => {
     }
 });
 
-
+/*ViewMoreButton.addEventListener('click', (e) => {
+    BlogList.classList.toggle('show-more');
+    ViewMoreButton.classList.toggle('show-less')
+    if (ViewMoreButton.innerText === "View More Blogs") {
+        ViewMoreButton.style.display = block;
+        BlogChunk2.style.display = none;
+    } else {
+        ViewMoreButton.style.display = none;
+        BlogChunk2.style.display = block;
+    }
+}); */
 
 
